@@ -1,0 +1,5 @@
+PREBUILD_COMMAND =  mkdir ./lib/; cp ../libs/${BUILD_ARCH}/*.so lib
+PREBUILD_DESC = Copy CAPI Library File to ./lib/
+
+POSTBUILD_COMMAND =
+POSTBUILD_DESC =

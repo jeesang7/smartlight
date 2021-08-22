@@ -1,0 +1,8 @@
+Debug
+SA_Report
+.sign
+.cproject
+.project
+.tproject
+.package-stamp
+res/*.json

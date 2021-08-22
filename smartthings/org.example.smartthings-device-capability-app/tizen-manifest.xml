@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="6.0" package="org.example.smartthings-device-capability-app" version="2.2.0">
+    <service-application appid="org.example.smartthings-device-capability-app" exec="smartthings-device-capability-app" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+        <label>smartthings-device-capability-app</label>
+        <icon>smartthings-device-capability-app.png</icon>
+        <metadata key="http://tizen.org/stdevice/metadata/capability" value="{&quot;components&quot;:[{&quot;name&quot;:&quot;main&quot;, &quot;capabilities&quot;:[&quot;switch&quot;]}]}"/>
+        <metadata key="samsung-experience-service-api-level" value="1"/>
+        <background-category value="background-network"/>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+        <privilege>http://tizen.org/privilege/datasharing</privilege>
+        <appdefined-privilege>http://com.samsung.tizen.smartthings-device/appdefined/smartthings-device.capability</appdefined-privilege>
+        <appdefined-privilege>http://com.samsung.tizen.smartthings-device/appdefined/smartthings-device.manager</appdefined-privilege>
+    </privileges>
+</manifest>
