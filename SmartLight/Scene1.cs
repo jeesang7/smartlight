@@ -12,6 +12,8 @@ namespace SmartLight
 {
     public class Scene1 : NUIApplication
     {
+        private Scene1Page mainPage;
+
         override protected void OnCreate()
         {
             base.OnCreate();
@@ -19,7 +21,8 @@ namespace SmartLight
             // NOTE To use theme.xaml, uncomment below line.
             // ThemeManager.ApplyTheme(new Theme(Tizen.Applications.Application.Current.DirectoryInfo.Resource + "theme/theme.xaml"));
 
-            GetDefaultWindow().Add(new Scene1Page());
+            mainPage = new Scene1Page();
+            GetDefaultWindow().Add(mainPage);
             GetDefaultWindow().KeyEvent += OnScene1KeyEvent;
         }
 
@@ -43,6 +46,7 @@ namespace SmartLight
 
         override protected void OnTerminate()
         {
+            mainPage.Stop();
             base.OnTerminate();
         }
 
