@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="6.0" package="org.tizen.smartthings-device-manager-app" version="2.2.0">
+    <service-application appid="org.tizen.smartthings-device-manager-app" exec="smartthings-device-manager-app" multiple="false" nodisplay="true" on-boot="false" taskmanage="false" type="capp">
+        <label>smartthings-device-manager-app</label>
+        <icon>smartthings-device-manager-app.png</icon>
+        <metadata key="samsung-experience-service-api-level" value="1"/>
+        <background-category value="background-network"/>
+        <background-category value="iot-communication"/>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/network.get</privilege>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/systemsettings.admin</privilege>
+        <privilege>http://tizen.org/privilege/network.set</privilege>
+        <privilege>http://tizen.org/privilege/softap.admin</privilege>
+        <privilege>http://tizen.org/privilege/softap</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+        <privilege>http://tizen.org/privilege/datasharing</privilege>
+        <privilege>http://tizen.org/privilege/network.profile</privilege>
+        <appdefined-privilege>http://com.samsung.tizen.smartthings-device/appdefined/smartthings-device.manager</appdefined-privilege>
+    </privileges>
+</manifest>
