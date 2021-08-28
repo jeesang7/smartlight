@@ -12,6 +12,6 @@
     <ImageView ResourceUrl="*Resource*/images/tizen.png"/>
     <TextLabel Text="Hello Tizen NUI"
                PixelSize="36"/>
-    <Button Text="Change the LED Light" 
+    <Button Text="Toggle LED Light" 
             Clicked="ChangeLEDLight" />
 </View>
