@@ -31,19 +31,22 @@
               MaxValue="100"
               CurrentValue="25"
               BgTrackColor="#ff0000"
-              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"/>
+              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              ValueChanged="OnRValueChanged"/>
 
     <c:Slider x:Name="SliderG"
               MinValue="0"
               MaxValue="100"
               CurrentValue="55"
               BgTrackColor="#00ff00"
-              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"/>
+              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              ValueChanged="OnGValueChanged"/>
 
     <c:Slider x:Name="SliderB"
               MinValue="0"
               MaxValue="100"
               CurrentValue="45"
               BgTrackColor="#0000ff"
-              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"/>
+              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              ValueChanged="OnBValueChanged"/>
 </View>
