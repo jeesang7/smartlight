@@ -12,6 +12,7 @@
 * C# Xamarin 및 타이젠 NUI 기반으로, 원격 조정이 가능한 스마트 조명 제작을 목표로 합니다.
 * 하드웨어는 LED 하나를 두고, 디스플레이에 들어갈 소프트웨어 입니다.
 ![smartlight](https://user-images.githubusercontent.com/30719956/131217752-a24c508e-6b95-4d35-af11-a4a9c29845c6.jpeg)
+![Image from iOS](https://user-images.githubusercontent.com/30719956/131238196-443411e0-1667-489c-894f-714c54f02b17.jpg)
 
 ## 파일 리스트 및 코드 기여자
 * 아래는 파일은 직접 수정하고 기여한 부분 입니다
@@ -29,3 +30,4 @@
 * Peripheral GPIO, PWM, REST API Client
 
 ## 시연영상
+[YouTube Link](https://youtube.com/playlist?list=PLIRH65toTg8v9JBRHs-t288eE6ZGKI7L9)
