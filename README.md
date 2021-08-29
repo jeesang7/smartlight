@@ -25,6 +25,8 @@
 * RPi4: GPIO 및 REST API 연동
   * https://tizenschool.org/tutorial/250/contents/1
   * https://www.csharpstudy.com/web/article/16-HttpWebRequest-%ED%99%9C%EC%9A%A9
+  * RGB LED 140c05: https://www.aliexpress.com/i/4000140556861.html
+![Image from iOS (1)](https://user-images.githubusercontent.com/30719956/131238367-bc84e4b1-e5b8-4c95-b6af-5443fda241cd.jpg)
 
 ## 구현사항
 * Peripheral GPIO, PWM, REST API Client
